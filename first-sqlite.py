@@ -21,8 +21,11 @@ c = con.cursor()
         ]
 c.executemany("INSERT INTO customers VALUES (?,?,?)", many_customers)"""
 
-c.execute("SELECT * FROM customers")
-print(c.fetchmany(3))
+c.execute("SELECT rowid, * FROM customers")
+items = c.fetchall()
+
+for item in items:
+    print(item)
 
 
 con.commit()
