@@ -1,8 +1,8 @@
-#DJANGO SETTINGS
+# DJANGO SETTINGS
 
-This is just a short intro I have made to familiarise myself with the django settings file but if you want to find more about django settings file below it will take you to the official documentation :smile:
+This is just a short intro I have made to familiarise myself with the django settings file but if you want to find more about django settings file click below it will take you to the official documentation 🙂
 
-[DJANGO SETTINGS](https://docs.djangoproject.com/en/4.1/topics/settings/)
+click here - [DJANGO SETTINGS](https://docs.djangoproject.com/en/4.1/topics/settings/)
 
 A django settings file contains all the configurations of your django installation.
 It is just a python module with module-level variables
